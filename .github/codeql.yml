@@ -1,3 +1,4 @@
+name: "CodeQL C# Analysis"
 on:
   push:
     branches:

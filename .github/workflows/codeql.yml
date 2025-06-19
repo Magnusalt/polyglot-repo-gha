@@ -6,6 +6,6 @@ on:
 
 jobs:
   call-codeql-csharp:
-    uses: magnusalt/gha-dev/common-workflows/codeql@v1
+    uses: Magnusalt/gha-dev/.github/workflows/common-workflows/codeql@v1
     with:
       languages: ["csharp"]

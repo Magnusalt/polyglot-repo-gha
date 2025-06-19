@@ -13,4 +13,4 @@ jobs:
       actions: read
       contents: read
     with:
-      languages: '["csharp"]'
+      languages: '["csharp", "go", "python", "javascript"]'

@@ -7,5 +7,10 @@ on:
 jobs:
   call-codeql-csharp:
     uses: Magnusalt/gha-dev/.github/workflows/codeql-extended.yml@v2
+    permissions:
+      security-events: write
+      packages: read
+      actions: read
+      contents: read
     with:
       languages: '["csharp"]'

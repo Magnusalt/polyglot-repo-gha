@@ -9,5 +9,3 @@ actions defined in another repo must be stored in ./.github/workflows directory,
 Permissions specified in the defining action must be matched by the consumer.
 
 Tags or hash is needed to reference a specific version of a github action in another repo.
-
-Includes extended code scanning and cyclomatic complexity

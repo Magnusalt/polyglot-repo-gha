@@ -22,5 +22,3 @@ jobs:
       packages: read
       actions: read
       contents: read
-    with:
-      languages: '["csharp"]'

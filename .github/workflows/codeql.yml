@@ -14,3 +14,13 @@ jobs:
       contents: read
     with:
       languages: '["csharp", "go", "python", "javascript"]'
+  
+  call-codeql-cyclomatic-complexity-scan:
+    uses: Magnusalt/gha-dev/.github/workflows/codeql-cyclomatic-complexity-csharp.yml@v2
+    permissions:
+      security-events: write
+      packages: read
+      actions: read
+      contents: read
+    with:
+      languages: '["csharp"]'
